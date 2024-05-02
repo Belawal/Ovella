@@ -21,6 +21,11 @@ body {
 /* Header */
 header {
     background-color: lightgreen;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #7f817f;
 }
 
 h1 {
