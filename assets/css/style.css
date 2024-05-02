@@ -1,20 +1,32 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project style */
+    color: black;
+}
+
 /* Header */
-header{
+header {
     background-color: lightgreen;
 }
 
 /* Main content */
-main{
-    background-color: rgb(50, 188, 38);
+main {
+    background-color: rgb(158, 254, 203);
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: lightgreen;
 }
