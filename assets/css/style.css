@@ -84,10 +84,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightgreen;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Mango section */
+#Mango {
+    height: 600px;
+    width: 100%;
+    background: url("../images/mango-image.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
