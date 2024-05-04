@@ -37,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Owasld', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -49,12 +49,12 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px soild #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -69,7 +69,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle*/
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -82,29 +82,33 @@ nav {
     font-size: 2rem;
 }
 
-#logo {
-    font-size: 200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
-
 /* Main content */
 main {
     background-color: lightgreen;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 47px;
 }
 
 /* Footer */
-footer {
-    background-color: #3a3a3a;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* header */
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -114,7 +118,7 @@ footer {
         
     }
 
-    #menue {
+    #menu {
         display: flex;
     }
 
@@ -131,16 +135,17 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-}
+
     /* Main content */
     main {
         /* To push contrct down in larger header */
-        margin-top: 154px;
+        margin-top: 79px;
     }
+}
 
     /* Media query: laptops and larger screens (992px and up) */
     @media screen and (min-width: 992px) {
-        #menu a:hover {
+        #menu a:hover{
             border-bottom: 1px solid #3a3a3a;
         }
 
