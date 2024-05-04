@@ -80,6 +80,12 @@ nav {
     font-size: 2rem;
 }
 
+#logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
 /* Main content */
 main {
     background-color: lightgreen;
@@ -103,5 +109,26 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
+    #menue{
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+     /* Main content */
+     main {
+        /* To push contrct down in larger header */
+        margin-top: 154px;
+     }
 
 }
