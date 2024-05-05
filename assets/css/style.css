@@ -119,33 +119,44 @@ main {
 }
 
 /* about us section */
-#goals-mission>div,
-
-#goals-valus>div {
-
-    line-height: 20px;
-
-    margin-bottom: 20px;
-
+#goals {
+    width: 90%;
+    margin: 20px auto;
 }
 
+#goals h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 
+#goals-mission>div,
+#goals-values>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 
 #goals p {
-
     padding: 0 20px;
-
 }
-
-
 
 #goals hr {
-
     border-top: 1px solid #3a3a3a;
-
     margin: 5px 0;
-
 }
+
+/* Product page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
+
 
 /* Footer */
 #social-networks {
@@ -154,7 +165,6 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
 }
 
 #social-networks i {
@@ -163,6 +173,13 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape screens (576px and up) */
+@media screen and (min-width: 576px){
+    #photos {
+        column-count:2;
+        column-gap: 0;
+    }
+}
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -173,14 +190,13 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -212,6 +228,11 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Products */
+    #photos{
+        column-:4;
+        column-gap:0;
+    }
 
 }
 
@@ -227,15 +248,15 @@ main {
         flex: 1;
     }
 
-    #goals-mental {
+    #goals-values {
         order: 1;
     }
 
-    #goals-mental>div {
+    #goals-values>div {
         align-self: flex-start;
     }
 
-    #goals-physical>div {
+    #goals-mission>div {
         align-self: flex-end;
     }
 }
