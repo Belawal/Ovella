@@ -1,39 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+In this site I aim to introduce new juice product from OrashFoods called
+Ovella, to the market. The customers will get a chance to see different
+variants of Ovella i.e. Mango Flavour, Apple Flavour and many more to
+come. Alone with few other products down the line.
 
-Welcome,
+We will also be able to collect feedback from the customer of which
+flavour is most appealing to them in return offering them one sample.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+My website contains several features:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Navigation Bar (drop down functionality)
 
-## Codeanywhere Reminders
+# Social media Icon (active social media icon with working links)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+<img src="assset" style="width:3.14394in;height:1.87567in" /><img src="media/image2.PNG" style="width:2.39394in;height:3.60947in" />
 
-`python3 -m http.server`
+# Image (which are responsive to various screens)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<img src="media/image3.png" style="width:1.49308in;height:1.70101in" /><img src="media/image4.png" style="width:1.65151in;height:1.73476in" /><img src="media/image5.png" style="width:1.63027in;height:1.71932in" /><img src="media/image6.png" style="width:1.35643in;height:1.72727in" />
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# Video (continues played but auto muted for friendly usage)
 
-`http_server`
+<img src="media/image7.PNG" style="width:4.15151in;height:6.22727in" />
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Form (allows user to fill up their details and submit)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Radio Button (4 checked buttons to choose)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<img src="media/image8.PNG" style="width:5.15909in;height:6.08985in" />
 
-To log into the Heroku toolbelt CLI:
+# **Testing**
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+After numerous testing and fixing mirror mistake I ended with 4 error
+which I could now fix but after testing it did not had any effect on
+website or its responsiveness, so I decided to leave it.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<img src="media/image9.PNG" style="width:6.26806in;height:3.95486in" />
 
----
+# **Deployment**
 
-Happy coding!
+This website was depled to GitHub Page. The steps below are how I
+deployed the site:
+
+- Opened Github
+
+- Selected my repository
+
+- Opened setting in the selected repository.
+
+- Went to github pages
+
+- Selected deploy source from none to main and save.
+
+- Then refreshed page went to deployment section on top.
+
+- the following link was given:
+
+https://belawal.github.io/Ovella/
+
+Credits
+
+My main inspiration for the site was from the lesson from Code Academny
+Love Running Project
+
+I found their site was very neat and simple and easy as in user friendly
+with brilliant color scheme , so I used that as my motivation.
+
+As for the contents , that was given by the authroised person from the
+Orash Foods ltd, permission for me to use their name / brands and any
+media online for this specific project.
+
+With this I conclude my ReadME.

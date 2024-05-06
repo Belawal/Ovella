@@ -152,9 +152,9 @@ main {
     line-height: 0;
 }
 
-/* Form */
-#subcribe {
-    background-image: url("../images/sunnysip.jpeg");
+/* Subcribe  */
+#subscribe {
+    background-image: url("../images/sunnysip.jpeg") no-repeat center center/cover;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
