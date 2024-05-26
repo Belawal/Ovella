@@ -144,12 +144,13 @@ main {
 
 /* Product page */
 #photos img {
-    width: 100%;
     line-height: 1em;
 }
 
 #photos {
     line-height: 0;
+    max-width: 1024px;
+    margin: auto;
 }
 
 /* Subcribe  */
