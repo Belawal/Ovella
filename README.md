@@ -51,8 +51,10 @@ Radio Button (4 checked buttons to choose)
 
 
 Testing
+W3c Html validation: Passed
+W3C Css Validation: Passed
 
-After numerous testing and fixing mirror mistake I ended with 4 error which I could now fix  but after testing it did not had any effect on website or its responsiveness, so I decided to leave it.
+After numerous testing and fixing mirror mistake I ended with 4 error which I could now fix  but after testing it did not had any effect on website or its responsiveness, regardless I had to take a break and go throught each error and finally I had got them with the help of my tutot. "Patrick Rory"
 
  ![image](https://github.com/Belawal/Ovella/assets/25865563/56996318-ae41-4516-b904-b7969b3d38ae)
 
