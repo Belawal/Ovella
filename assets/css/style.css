@@ -156,9 +156,15 @@ main {
     margin: auto;
 }
 
+.pproducts{
+    overflow: hidden;
+}
+
 #video {
     max-width: 1024px;
     margin: auto;
+
+    
 }
 
 
