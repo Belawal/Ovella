@@ -157,7 +157,7 @@ main {
 }
 
 .pproducts{
-    overflow: hidden;
+    display: none;
 }
 
 #video {
