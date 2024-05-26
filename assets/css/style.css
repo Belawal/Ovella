@@ -92,9 +92,10 @@ main {
 /* Mango section */
 #Mango {
     height: 1150px;
-    width: 100%;
+    max-width: 1024px;
     background: url("../images/mango-image.jpg") no-repeat center center/cover;
-    position: relative;
+    margin: auto;
+
 }
 
 #cover-text {
@@ -107,6 +108,8 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    margin: auto;
+  
 }
 
 #cover-text>h2,
@@ -152,6 +155,13 @@ main {
     max-width: 1024px;
     margin: auto;
 }
+
+#video {
+    max-width: 1024px;
+    margin: auto;
+}
+
+
 
 /* Subcribe  */
 #subscribe {
